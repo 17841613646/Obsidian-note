@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"E:/Astudy/学习笔记文件夹/学习笔记\" && echo \"=== 凭据助手（负责帮你登录）===\" && \\(git config --get credential.helper || echo \"未配置\"\\) && echo && echo \"=== 连接远程仓库 ===\" && git remote add origin \"https://github.com/17841613646/Obsidian-note.git\" && git remote -v && echo && echo \"=== 开始推送（留意弹窗！）===\" && git push -u origin main 2>&1)",
+      "Bash(cd \"E:/Astudy/学习笔记文件夹/学习笔记/.obsidian/plugins\" && mkdir -p obsidian-git && cd obsidian-git && echo \"=== 下载中，请稍候（GitHub 较慢）===\" && curl -fsSL --max-time 150 -o main.js \"https://github.com/Vinzent03/obsidian-git/releases/latest/download/main.js\" && echo \"✅ main.js 下载完成\" && curl -fsSL --max-time 60 -o manifest.json \"https://github.com/Vinzent03/obsidian-git/releases/latest/download/manifest.json\" && echo \"✅ manifest.json 下载完成\" && \\(curl -fsSL --max-time 60 -o styles.css \"https://github.com/Vinzent03/obsidian-git/releases/latest/download/styles.css\" && echo \"✅ styles.css 下载完成\" || echo \"⚠️ 无 styles.css（正常，可忽略）\"\\) && echo && echo \"=== 下载结果 ===\" && ls -la && echo && echo \"=== 插件信息 ===\" && cat manifest.json)",
+      "Bash(grep -oE 'commitMessage:\"[^\"]*\"[^}]{0,1500}' main.js)"
+    ]
+  }
+}
