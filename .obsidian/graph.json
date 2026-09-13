@@ -1,0 +1,58 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:vibecoding学习笔记",
+      "color": {
+        "a": 1,
+        "rgb": 16663397
+      }
+    },
+    {
+      "query": "path:linux运维学习",
+      "color": {
+        "a": 1,
+        "rgb": 16555418
+      }
+    },
+    {
+      "query": "path:vue学习",
+      "color": {
+        "a": 1,
+        "rgb": 16371117
+      }
+    },
+    {
+      "query": "path:Flutter学习笔记",
+      "color": {
+        "a": 1,
+        "rgb": 13158569
+      }
+    },
+    {
+      "query": "path:软件使用",
+      "color": {
+        "a": 1,
+        "rgb": 8630171
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.7132754626224369,
+  "close": true
+}
