@@ -3,7 +3,7 @@
   "permissionMode": "normal",
   "model": "opus",
   "thinkingBudget": "off",
-  "effortLevel": "medium",
+  "effortLevel": "low",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
   "titleGenerationLocale": "",
@@ -104,7 +104,7 @@
     "claude": "opus"
   },
   "savedProviderEffort": {
-    "claude": "medium"
+    "claude": "low"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {},
