@@ -4,5 +4,18 @@
       "modifiers": [],
       "key": "F3"
     }
+  ],
+  "obsidian-excalidraw-plugin:save": [],
+  "editor:set-heading-1": [
+    {
+      "modifiers": [],
+      "key": "F5"
+    }
+  ],
+  "editor:set-heading-2": [
+    {
+      "modifiers": [],
+      "key": "F6"
+    }
   ]
 }
