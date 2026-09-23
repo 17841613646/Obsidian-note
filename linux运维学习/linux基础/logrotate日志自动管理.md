@@ -19,14 +19,15 @@
 一个标准的配置段结构如下：
 
 bash
-
-/var/log/nginx/*.log {
-    daily
-    rotate 7
-    missingok
-    notifempty
-    compress
-    delaycompress
+cd /var/logrotate.d
+vim messages
+/var/log/messages {
+    daily 每天轮转一次
+    rotate 7 轮转保存其他
+    missingok 文件出错不报错
+    notifempty 空文件不轮转
+    compress 轮转压缩
+    delaycompress 
     create 0640 nginx adm
     sharedscripts
     postrotate
@@ -36,12 +37,12 @@ bash
 
 ### 轮转频率（三选一）
 
-|指令|作用|
-|---|---|
-|`daily`|每天轮转一次|
-|`weekly`|每周轮转一次|
-|`monthly`|每月轮转一次|
-|`size 100M`|文件达到指定大小时轮转（可与时间条件同时使用，满足任一即触发）|
+| 指令          | 作用                              |
+| ----------- | ------------------------------- |
+| `daily`     | 每天轮转一次                          |
+| `weekly`    | 每周轮转一次                          |
+| `monthly`   | 每月轮转一次                          |
+| `size 100M` | 文件达到指定大小时轮转（可与时间条件同时使用，满足任一即触发） |
 
 ### 保留与压缩
 
